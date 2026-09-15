@@ -7,7 +7,7 @@
             Console.WriteLine("Create a new subject and exam by entering values.");
 
             int subjectId = ReadInt("Enter subject id: ");
-            string subjectName = ReadString("Enter subject name: ");
+            string subjectName = ReadString("Enter subject name:");
 
             Subject subject = new Subject(subjectId, subjectName);
 
